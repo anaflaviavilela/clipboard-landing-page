@@ -1,0 +1,55 @@
+@import 'style.css';
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 1rem;
+    margin: auto 10rem;
+}
+
+.header-logo{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.header-titulo{
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--color-dark-gray);
+    text-align: center;
+}
+
+.header-paragrafo{
+    font-size: 1rem;
+    font-family: var(--font);
+    font-weight: 400;
+    color: var(--color-gray);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 2rem;
+}
+
+a{
+    font-family: var(--font);
+    text-decoration: none;
+    color: var(--color-white);
+    border-color: 1rem solid;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin-bottom: 6rem;
+}
+
+.header-button-cyan{
+    background-color: var(--color-cyan);
+}
+
+.header-button-blue{
+    background-color: var(--color-blue);
+}

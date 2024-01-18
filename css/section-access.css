@@ -1,0 +1,21 @@
+@import url('style.css');
+
+.access-clipboard{
+    text-align: center;
+}
+
+.access-clipboard-titulo{
+    font-size: 2rem;
+    font-family: var(--font);
+    font-weight: 600;
+    color: var(--color-dark-gray);
+}
+
+.access-clipboard-paragrafo{
+    font-size: 0.8rem;
+    font-family: var(--font);
+    font-weight: 400;
+    color: var(--color-gray);
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root{
+    /* COLORS */
+    --color-cyan: #38A897;
+    --color-blue: #6173FF;
+    --color-dark-gray: #4C545D;
+    --color-gray: #9FABB2;
+    --color-white: #ffffff;
+
+    /* FONTS */
+    --font: 'Bai Jamjuree', sans-serif;
+
+}

@@ -1,0 +1,28 @@
+@import url('style.css');
+
+footer{
+    text-align: center;
+}
+
+.footer-titulo{
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--color-dark-gray);
+    text-align: center;
+}
+
+.footer-paragrafo{
+    font-size: 1rem;
+    font-family: var(--font);
+    font-weight: 400;
+    color: var(--color-gray);
+    padding: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.rodape{
+    display: flex;
+}
+
