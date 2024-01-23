@@ -1,5 +1,16 @@
 @import 'style.css';
 
+body{
+    background-image: url("../images/bg-header-desktop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+p{
+    line-height: 1.5rem;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -10,7 +21,7 @@ header{
 }
 
 .header-logo{
-    margin-top: 2rem;
+    margin-top: 20%;
     margin-bottom: 3rem;
 }
 
@@ -34,6 +45,8 @@ header{
 .buttons{
     display: flex;
     gap: 2rem;
+    justify-content: center;
+    font-weight: 600;
 }
 
 a{
@@ -52,4 +65,35 @@ a{
 
 .header-button-blue{
     background-color: var(--color-blue);
+}
+
+@media (max-width: 970px){
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0 2%;
+        background-image: url("../images/bg-header-mobile.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    
+    header{
+        margin: 0;
+    }
+
+    .header-titulo{
+        font-size: 3rem;
+    }
+
+    .buttons{
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    a{
+        margin-bottom: 0;
+    }
 }

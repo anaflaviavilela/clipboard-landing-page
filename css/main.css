@@ -32,8 +32,7 @@ main{
 
 .main-container-conteudo{
     margin-left: 5rem;
-    margin-top: 6rem;
-    
+    margin-top: 6rem; 
 }
 
 .main-conteudo-titulo{
@@ -50,4 +49,27 @@ main{
     font-weight: 400;
     color: var(--color-gray);
     margin-bottom: 2rem;
+}
+
+@media(max-width: 970px){
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main-titulo{
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    .main-container-imagem{
+        text-align: center;
+    }
+
+    .main-container-conteudo{
+        margin-left: 0;
+        margin-top: 2.5rem;
+    }
+    
 }

@@ -12,10 +12,11 @@
 }
 
 .access-clipboard-paragrafo{
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-family: var(--font);
     font-weight: 400;
     color: var(--color-gray);
     margin-bottom: 2rem;
     padding: 1.5rem;
 }
+

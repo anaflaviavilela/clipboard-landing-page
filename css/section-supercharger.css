@@ -58,3 +58,27 @@
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
+
+@media(max-width: 970px){
+    .supercharger{
+        margin: 0;
+    }
+
+    .supercharger-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .supercharger-empresas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .supercharger-titulo{
+        margin-top: 20%;
+    }
+
+    .supercharger-container{
+        gap: 1rem;
+    }
+}
